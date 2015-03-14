@@ -10,7 +10,30 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
+	overflow: hidden;
 	background: url('/assets/index_bg.jpg');
 	background-size: cover;
 	background-position: center;
+
+	.index-text {
+		position: absolute;
+		width: 100%;
+		bottom: 10em;
+		left: 5em;
+
+		h1 {
+			font-size: 3.5em;
+			font-weight: bold;
+			color: #fff;
+			text-shadow: 6px 6px 18px #000;
+		}
+
+		h2 {
+			font-size: 1.5em;
+			line-height: 1.5em;
+			font-weight: normal;
+			color: #fff;
+			text-shadow: 6px 6px 18px #000;
+		}
+	}
 }
