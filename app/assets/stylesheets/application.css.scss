@@ -1,0 +1,94 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+
+html body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+
+#header {
+
+	.link-bar {
+		text-align: right;
+		background: #10a9da;
+
+		ul {
+			list-style-type: none;
+			display: inline-block;
+			margin: 0;
+
+			li {
+				display: inline-block;
+
+				a {
+					display: block;
+					padding: 1em .5em;
+					color: #fff;
+					font-style: italic;
+				}
+			}
+		}
+
+		.search {
+			display: inline-block;
+
+			span {
+				margin-left: 1em;
+				color: #fff;
+				font-style: italic;
+			}
+
+			input {
+				border: 0;
+				background: #8EDAF2;
+			}
+
+			i {
+				color: #fff;
+				padding: 0 .5em;
+			}
+		}
+
+		.translate {
+			display: inline-block;
+			position: relative;
+
+			.translate-button {
+				color: #fff;
+				text-transform: uppercase;
+				padding: 0 1em;
+				border: 0;
+				background: #8EDAF2;
+			}
+
+			.dropdown-menu {
+				position: absolute;
+				display: none;
+				top: 0;
+				left: 0;
+			}
+		}
+
+		.divider {
+			margin: 0 1em;
+			color: #1994BB;
+		}
+	}
+}
