@@ -5,21 +5,24 @@
 
 
 #index {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	overflow: hidden;
 	background: url('/assets/index_bg.jpg');
 	background-size: cover;
 	background-position: center;
+}
 
-	.index-text {
+#home {
+	  position: relative;
+	  vertical-align: baseline;
+	  overflow: hidden;
+	  padding: 5em 0 0 0;
+	  width: 100%;
+	  height: 100vh;
+	  z-index: 1;
+
+	  .home-text {
 		position: absolute;
-		width: 100%;
-		bottom: 10em;
-		left: 5em;
+		bottom: 9em;
+		left: 4em;
 
 		h1 {
 			font-size: 3.5em;
@@ -36,4 +39,32 @@
 			text-shadow: 6px 6px 18px #000;
 		}
 	}
+
+	.scroll-down {
+		position: absolute;
+		width:40%;
+		left: 50%;
+		margin-left: -20%;
+		bottom: 0;
+		padding-bottom: 1em;
+		text-align: center;
+
+		span {
+			font-size: 1.25em;
+			color: #aaa;
+			font-style: italic;
+		}
+	}
+}
+
+#data {
+	position: relative;
+	background: url('/assets/data_bg.jpg');
+	background-size: cover;
+	background-position: center;
+
+	h1 {
+		padding: 3em 0;
+	}
+
 }

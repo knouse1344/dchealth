@@ -5,12 +5,22 @@
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   <%= csrf_meta_tags %>
-  <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+  	#index {
+	  	position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+  </style>
 </head>
 <body>
 
 	<%= yield %>
 
+	<%= render 'layouts/footer' %>
 
 </body>
 </html>
