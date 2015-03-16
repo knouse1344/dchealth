@@ -22,10 +22,18 @@ html body {
 	padding: 0;
 }
 
+body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
+	font-family: 'Lato', sans-serif;
+}
+
 
 #header {
+	position: relative;
+	z-index: 500;
 
 	.link-bar {
+		z-index: 500;
+		position: relative;
 		text-align: right;
 		background: #10a9da;
 
@@ -40,6 +48,7 @@ html body {
 				a {
 					display: block;
 					padding: 1em .5em;
+					font-size: .9em;
 					color: #fff;
 					font-style: italic;
 				}
@@ -48,6 +57,7 @@ html body {
 
 		.search {
 			display: inline-block;
+			font-size: .9em;
 
 			span {
 				margin-left: 1em;
@@ -57,6 +67,7 @@ html body {
 
 			input {
 				border: 0;
+				padding: .25em .5em;
 				background: #8EDAF2;
 			}
 
@@ -89,6 +100,74 @@ html body {
 		.divider {
 			margin: 0 1em;
 			color: #1994BB;
+		}
+	}
+
+	.status-bar {
+		height: 4.5em;
+		background: #fff;
+		position: relative;
+		z-index: 500;
+
+		.logo-container {
+			display: inline-block;
+
+			h1 {
+				float: left;
+				margin: 0 0 0 .5em;
+				font-size: 2.25em;
+				line-height: 2em;
+				font-weight: 300;
+			}
+
+			.logo {
+				margin-top: -1.5em;
+				height: 7.5em;
+				float: left;
+			}
+		}
+
+		.link-list {
+			display: inline-block;
+			height: 4.5em;
+			float: right;
+			vertical-align: top;
+
+			.link {
+				display: inline-block;
+				height: 4.5em;
+				padding: 0 1em;
+
+				a {
+					font-weight: 300;
+					display: block;
+					height: 100%;
+					padding-top: .75em;
+					line-height: 100%;
+					vertical-align: middle;
+					text-decoration: none;
+					font-size: 1.25em;
+					color: #fff;
+					text-transform: uppercase;
+
+					span {
+						font-weight: 700;
+					}
+				}
+			}
+
+			.link.data {
+				background: #f37532;
+			}
+			.link.locate {
+				background: #94d60a;
+			}
+			.link.connect {
+				background: #00b3e3;
+			}
+			.link.share {
+				background: #fec524;
+			}
 		}
 	}
 }
