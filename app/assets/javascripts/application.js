@@ -36,5 +36,17 @@ $(document).ready(function() {
 	    }
 	});
 
+	// Navigation Waypoint
+	/////////////////////////////////////////////////////////////////////////////////////////////
+	var header = $('#header');
+
+	$(header).waypoint(function(direction) {
+        if (direction == 'down') {
+            $(header).addClass('fixed-top');
+        } else {
+            $(header).removeClass('fixed-top');
+        }
+    });
+
 
 });

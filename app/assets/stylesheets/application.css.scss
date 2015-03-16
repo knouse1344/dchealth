@@ -32,10 +32,12 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 
 #header {
 	position: relative;
+	width: 100%;
 	z-index: 500;
 
 	.link-bar {
 		z-index: 500;
+		height: 3em;
 		position: relative;
 		text-align: right;
 		background: #10a9da;
@@ -50,7 +52,7 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 
 				a {
 					display: block;
-					padding: 1em .5em;
+					padding: 1.05em .5em;
 					font-size: .9em;
 					color: #fff;
 					font-style: italic;
@@ -140,17 +142,17 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 			.link {
 				display: inline-block;
 				height: 4.5em;
-				padding: 0 1em;
+				padding: 0 .5em;
 
 				a {
 					font-weight: 300;
 					display: block;
 					height: 100%;
-					padding-top: .75em;
+					padding-top: 1em;
 					line-height: 100%;
 					vertical-align: middle;
 					text-decoration: none;
-					font-size: 1.25em;
+					font-size: 1.15em;
 					color: #fff;
 					text-transform: uppercase;
 
@@ -173,5 +175,47 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 				background: #fec524;
 			}
 		}
+	}
+}
+
+#header.fixed-top {
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header-container-fix {
+	position: relative;
+	height: 7.5em;
+}
+
+#footer {
+	background: #10a9da;
+	padding: 3em 0 5em;
+
+	ul {
+		list-style-type: none;
+		margin: 0 0 3em;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+
+		li {
+			display: inline-block;
+
+			a {
+				display: block;
+				text-decoration: none;
+				color: #fff;
+				padding: .25em .5em;
+			}
+		}
+	}
+
+	p {
+		color: #fff;
+		font-weight: 300;
+		font-size: .8em;
+		text-align: center;
 	}
 }
