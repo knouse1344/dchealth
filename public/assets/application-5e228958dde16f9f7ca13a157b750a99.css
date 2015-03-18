@@ -1,24 +1,40 @@
 /* line 11, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #index #slides .slides-navigation {
   position: absolute;
-  right: 3em;
-  top: 5em;
-  width: 10em;
+  right: 2em;
+  top: 20em;
   z-index: 1000;
   color: #fff;
   text-align: right;
   z-index: 500;
 }
-/* line 21, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 20, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #index #slides .slides-navigation a {
   color: #fff;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
   display: block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 25px;
+  opacity: 1;
+  background: rgba(255, 255, 255, 0.9);
+  margin-bottom: 1em;
+}
+/* line 34, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+#index #slides .slides-navigation a i {
+  font-size: 30px;
+  padding: 10px;
+  color: #10a9da;
+}
+/* line 41, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+#index #slides .slides-navigation a:hover {
+  opacity: .5;
 }
 
-/* line 32, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 48, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home {
   position: relative;
   vertical-align: baseline;
@@ -28,18 +44,18 @@
   height: 100vh;
   z-index: 5;
 }
-/* line 41, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 57, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home .home-text {
   text-align: center;
 }
-/* line 44, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 60, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home .home-text h1 {
   font-size: 8em;
   font-weight: bold;
   color: #fff;
   text-shadow: 6px 6px 18px #000;
 }
-/* line 51, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 67, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home .home-text h2 {
   padding: .5em .25em;
   font-size: 2.5em;
@@ -50,7 +66,7 @@
   text-shadow: 6px 6px 18px rgba(0, 0, 0, 0.5);
   background: rgba(16, 169, 218, 0.75);
 }
-/* line 63, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 79, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home .scroll-down {
   position: absolute;
   width: 40%;
@@ -60,44 +76,45 @@
   padding-bottom: 1em;
   text-align: center;
 }
-/* line 72, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 88, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #home .scroll-down span {
   font-size: 1.25em;
   color: #aaa;
   font-style: italic;
 }
 
-/* line 80, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 96, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data {
   position: relative;
   background: url("/assets/data_bg.jpg");
   background-size: cover;
   background-position: center;
   padding-bottom: 10em;
+  z-index: 500;
 }
-/* line 87, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 104, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data h1 {
   padding: 3em 0;
 }
-/* line 95, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 112, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data p.data-intro {
   font-weight: 300;
   padding: 2.5em 0;
   font-style: italic;
 }
-/* line 101, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 118, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure {
   position: relative;
   padding: 0;
   margin-top: 2em;
 }
-/* line 106, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 123, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation {
   background: #000;
   display: block;
   padding: 1em 0 3em;
 }
-/* line 111, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 128, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation h2 {
   margin: 0;
   padding-left: 1em;
@@ -108,7 +125,7 @@
   font-weight: 700;
   font-family: 'Roboto Condensed', sans-serif;
 }
-/* line 122, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 139, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation ul.topics-list {
   list-style-type: none;
   display: inline-block;
@@ -116,11 +133,11 @@
   margin: 0 2em 0 0;
   padding: 0;
 }
-/* line 129, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 146, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation ul.topics-list li {
   display: inline-block;
 }
-/* line 132, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 149, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation ul.topics-list li a {
   font-family: 'Roboto Condensed', sans-serif;
   font-weight: 300;
@@ -128,15 +145,15 @@
   color: #fff;
   text-transform: uppercase;
 }
-/* line 143, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 160, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation ul.topics-list li:hover a {
   color: #00b3e3;
 }
-/* line 150, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 167, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-navigation ul.topics-list li.active a {
   color: #00b3e3;
 }
-/* line 157, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 174, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options {
   font-size: 1em;
   position: absolute;
@@ -145,7 +162,7 @@
   height: 100%;
   z-index: 5;
 }
-/* line 165, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 182, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list {
   list-style-type: none;
   margin: 0;
@@ -154,7 +171,7 @@
   bottom: 2.5em;
   left: 0;
 }
-/* line 173, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 190, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list li {
   height: 12.5%;
   display: block;
@@ -167,7 +184,7 @@
   -o-transition: all .1s ease-in-out;
   transition: all .1s ease-in-out;
 }
-/* line 184, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 201, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list li a {
   color: #fff;
   font-size: 2em;
@@ -177,22 +194,22 @@
   height: 100%;
   padding: .25em .5em;
 }
-/* line 193, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 210, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list li a i {
   height: 100%;
   line-height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
-/* line 202, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 219, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list li:hover {
   background: #00b3e3;
 }
-/* line 206, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 223, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-options ul.options-list li.active {
   background: #00b3e3;
 }
-/* line 212, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 229, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .introduction {
   position: absolute;
   top: 5em;
@@ -200,14 +217,14 @@
   z-index: 25;
   width: 17%;
 }
-/* line 219, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 236, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .introduction h2 {
   text-transform: uppercase;
   color: #00b3e3;
   font-size: 1.25em;
   line-height: 1.5em;
 }
-/* line 227, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 244, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .description {
   position: absolute;
   top: 25em;
@@ -217,21 +234,21 @@
   border-top: 1px solid #94d60a;
   z-index: 25;
 }
-/* line 236, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 253, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .description h3 {
   color: #94d60a;
   font-size: 2em;
   line-height: 1em;
   text-transform: uppercase;
 }
-/* line 243, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 260, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .description p {
   font-style: italic;
   color: #444;
   font-weight: 300;
   font-size: .8em;
 }
-/* line 251, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 268, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-right {
   position: absolute;
   bottom: 5em;
@@ -239,7 +256,7 @@
   width: 20%;
   z-index: 25;
 }
-/* line 259, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 276, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-map {
   position: absolute;
   width: 45%;
@@ -247,45 +264,45 @@
   margin-left: -22.5%;
   z-index: 5;
 }
-/* line 267, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 284, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #data .brochure .brochure-bg {
   position: relative;
   margin-top: -3em;
   width: 100%;
 }
 
-/* line 275, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 292, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #locate {
   padding: 8em 0 40em 0;
   position: relative;
   background: #f1fadf;
   border-top: 3px solid #efefef;
 }
-/* line 281, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 298, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #locate h1 {
   color: #94d60a;
 }
 
-/* line 286, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 303, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #connect {
   padding: 8em 0 40em 0;
   position: relative;
   background: #def5fb;
   border-top: 3px solid #efefef;
 }
-/* line 292, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 309, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #connect h1 {
   color: #10a9da;
 }
 
-/* line 297, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 314, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #share {
   padding: 8em 0 40em 0;
   position: relative;
   background: #FFEDBC;
   border-top: 3px solid #efefef;
 }
-/* line 303, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
+/* line 320, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/main.scss */
 #share h1 {
   color: #fec524;
 }
@@ -409,20 +426,21 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
   bottom: 8em;
   left: 0;
   width: 100%;
-  z-index: 510;
+  height: 4.5em;
+  z-index: 2010;
 }
-/* line 121, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 122, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar {
   height: 4.5em;
   background: #fff;
   z-index: 500;
   position: relative;
 }
-/* line 127, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 128, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .logo-container {
   display: inline-block;
 }
-/* line 130, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 131, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .logo-container h1 {
   float: left;
   margin: 0 0 0 .5em;
@@ -430,26 +448,26 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
   line-height: 2em;
   font-weight: 300;
 }
-/* line 138, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 139, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .logo-container .logo {
   margin-top: -1.5em;
   height: 7.5em;
   float: left;
 }
-/* line 145, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 146, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list {
   display: inline-block;
   height: 4.5em;
   float: right;
   vertical-align: top;
 }
-/* line 151, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 152, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link {
   display: inline-block;
   height: 4.5em;
   padding: 0 .5em;
 }
-/* line 156, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 157, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link a {
   font-weight: 300;
   display: block;
@@ -462,52 +480,54 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
   color: #fff;
   text-transform: uppercase;
 }
-/* line 168, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 169, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link a span {
   font-weight: 700;
 }
-/* line 174, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 175, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link.data {
   background: #f37532;
 }
-/* line 177, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 178, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link.locate {
   background: #94d60a;
 }
-/* line 180, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 181, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link.connect {
   background: #00b3e3;
 }
-/* line 183, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 184, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status .status-bar .link-list .link.share {
   background: #fec524;
 }
 
-/* line 190, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 191, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header.fixed-top {
   position: fixed;
   top: 0;
   left: 0;
 }
 
-/* line 196, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 197, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #header-status.fixed-top {
   position: fixed;
   top: 3em;
 }
 
-/* line 201, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 202, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 .header-container-fix {
   position: relative;
   height: 7.5em;
+  z-index: 2000;
+  background: #fff;
 }
 
-/* line 206, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 209, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #footer {
   background: #10a9da;
   padding: 3em 0 5em;
 }
-/* line 210, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 213, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #footer ul {
   list-style-type: none;
   margin: 0 0 3em;
@@ -515,18 +535,18 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
   width: 100%;
   text-align: center;
 }
-/* line 217, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 220, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #footer ul li {
   display: inline-block;
 }
-/* line 220, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 223, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #footer ul li a {
   display: block;
   text-decoration: none;
   color: #fff;
   padding: .25em .5em;
 }
-/* line 229, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
+/* line 232, /Users/Bryan/Desktop/projects/dchealth/app/assets/stylesheets/application.css.scss */
 #footer p {
   color: #fff;
   font-weight: 300;

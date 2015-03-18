@@ -67,5 +67,10 @@ $(document).ready(function() {
 	    scrollable: true
     })
 
+	// Initialize Slider
+	/////////////////////////////////////////////////////////////////////////////////////////////
+	
+    $(window).stellar();
+
 
 });
