@@ -39,6 +39,7 @@ $(document).ready(function() {
 	// Navigation Waypoint
 	/////////////////////////////////////////////////////////////////////////////////////////////
 	var header = $('#header');
+	var headerstatus = $("#header-status");
 
 	$(header).waypoint(function(direction) {
         if (direction == 'down') {
@@ -47,6 +48,14 @@ $(document).ready(function() {
             $(header).removeClass('fixed-top');
         }
     });
+
+    $(headerstatus).waypoint(function(direction) {
+        if (direction == 'down') {
+            $(headerstatus).addClass('fixed-top');
+        } else {
+            $(headerstatus).removeClass('fixed-top');
+        }
+    }, {offset: 42});
 
 
 });

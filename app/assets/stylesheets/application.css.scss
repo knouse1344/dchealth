@@ -108,12 +108,20 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 			color: #1994BB;
 		}
 	}
+}
+
+#header-status {
+	position: absolute;
+	bottom: 8em;
+	left: 0;
+	width: 100%;
+	z-index: 510;
 
 	.status-bar {
 		height: 4.5em;
 		background: #fff;
-		position: relative;
 		z-index: 500;
+		position: relative;
 
 		.logo-container {
 			display: inline-block;
@@ -182,6 +190,11 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 	position: fixed;
 	top: 0;
 	left: 0;
+}
+
+#header-status.fixed-top {
+	position: fixed;
+	top: 3em;
 }
 
 .header-container-fix {
