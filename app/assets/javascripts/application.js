@@ -58,4 +58,14 @@ $(document).ready(function() {
     }, {offset: 42});
 
 
+    // Initialize Slider
+	/////////////////////////////////////////////////////////////////////////////////////////////
+
+    $('#slides').superslides({	
+	    slide_easing: 'easeInOutCubic',
+	    slide_speed: 800,
+	    scrollable: true
+    })
+
+
 });

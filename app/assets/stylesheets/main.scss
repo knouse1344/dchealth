@@ -5,9 +5,28 @@
 
 
 #index {
-	background: url('/assets/index_bg.jpg');
-	background-size: cover;
-	background-position: center;
+
+	#slides {
+
+		.slides-navigation {
+			position: absolute;
+			right: 3em;
+			top: 5em;
+			width: 10em;
+			z-index: 1000;
+			color: #fff;
+			text-align: right;
+			z-index: 500;
+
+			a {
+				color: #fff;
+				text-decoration: none;
+				font-size: 1.5em;
+				font-weight: bold;
+				display: block;
+			}
+		}
+	}
 }
 
 #home {
@@ -17,13 +36,13 @@
 	  padding: 13em 0 0 0;
 	  width: 100%;
 	  height: 100vh;
-	  z-index: 1;
+	  z-index: 5;
 
 	  .home-text {
 	  	text-align: center;
 
 		h1 {
-			font-size: 9em;
+			font-size: 8em;
 			font-weight: bold;
 			color: #fff;
 			text-shadow: 6px 6px 18px #000;
@@ -31,7 +50,7 @@
 
 		h2 {
 			padding: .5em .25em;
-			font-size: 2.7em;
+			font-size: 2.5em;
 			line-height: 1.5em;
 			font-weight: normal;
 			font-style: italic;
