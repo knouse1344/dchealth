@@ -55,7 +55,7 @@ $(document).ready(function() {
         } else {
             $(headerstatus).removeClass('fixed-top');
         }
-    }, {offset: 42});
+    }, {offset: 38});
 
 
     // Initialize Slider

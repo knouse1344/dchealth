@@ -101,6 +101,20 @@
 	padding-bottom: 10em;
 	z-index: 500;
 
+	.data-scroller {
+		width: 2em;
+		background: #f37532;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 5em;
+
+		img {
+			width: 2em;
+			margin-top: 4em;
+		}
+	}
+
 	h1 {
 		padding: 3em 0;
 	}
@@ -295,6 +309,20 @@
 	background: #f1fadf;
 	border-top: 3px solid #efefef;
 
+	.locate-scroller {
+		width: 2em;
+		background: #96c93d;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 5em;
+
+		img {
+			width: 2em;
+			margin-top: 4em;
+		}
+	}
+
 	h1 {
 		color: #94d60a;
 	}
@@ -305,6 +333,20 @@
 	position: relative;
 	background: #def5fb;
 	border-top: 3px solid #efefef;
+
+	.connect-scroller {
+		width: 2em;
+		background: #00b4e5;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 5em;
+
+		img {
+			width: 2em;
+			margin-top: 4em;
+		}
+	}
 
 	h1 {
 		color: #10a9da;
@@ -317,9 +359,22 @@
 	background: #FFEDBC;
 	border-top: 3px solid #efefef;
 
+	.share-scroller {
+		width: 2em;
+		background: #fec524;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		left: 5em;
+
+		img {
+			width: 2em;
+			margin-top: 4em;
+		}
+	}
+
 	h1 {
 		color: #fec524;
 	}
 }
-
 
