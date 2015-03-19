@@ -115,55 +115,59 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 	bottom: 8em;
 	left: 0;
 	width: 100%;
-	height: 4.5em;
+	height: 3em;
 	z-index: 2010;
 
 	.status-bar {
-		height: 4.5em;
+		height: 3em;
 		background: #fff;
 		z-index: 500;
 		position: relative;
 
 		.logo-container {
 			display: inline-block;
+			height: 3em;
 
 			h1 {
-				float: left;
-				margin: 0 0 0 .5em;
-				font-size: 2.25em;
+				display: inline-block;
+				margin: 0 0 0 .25em;
+				font-size: 1.5em;
 				line-height: 2em;
 				font-weight: 300;
 			}
 
 			.logo {
 				margin-top: -1.5em;
-				height: 7.5em;
+				height: 6em;
 				float: left;
 			}
 		}
 
 		.link-list {
 			display: inline-block;
-			height: 4.5em;
+			height: 3em;
 			float: right;
 			vertical-align: top;
 
 			.link {
-				display: inline-block;
-				height: 4.5em;
-				padding: 0 .5em;
+				float: right;
+				height: 100%;
+				padding: 0;
 
 				a {
 					font-weight: 300;
 					display: block;
 					height: 100%;
-					padding-top: 1em;
 					line-height: 100%;
 					vertical-align: middle;
 					text-decoration: none;
 					font-size: 1.15em;
 					color: #fff;
 					text-transform: uppercase;
+
+					img {
+						height: 100%;
+					}
 
 					span {
 						font-weight: 700;
@@ -172,16 +176,16 @@ body h1, body h2, body h3, body h4, body h5, body p, body span, body a {
 			}
 
 			.link.data {
-				background: #f37532;
+
 			}
 			.link.locate {
-				background: #94d60a;
+
 			}
 			.link.connect {
-				background: #00b3e3;
+
 			}
 			.link.share {
-				background: #fec524;
+
 			}
 		}
 	}
